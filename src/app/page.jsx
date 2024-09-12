@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "@/components/header";
 import Image from "next/image";
 import {
   Card,
@@ -113,13 +114,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="bg-primary text-primary-foreground shadow-lg">
-        <div className="container mx-auto py-4">
-          <h1 className="text-2xl font-bold px-10 md:px-6">
-            My Amazon Recommendations
-          </h1>
-        </div>
-      </header>
+      <Header />
 
       <main className="flex-grow container mx-auto py-8 px-10 md:px-6">
         <h2 className="text-3xl font-bold mb-6">Top Recommended Products</h2>
