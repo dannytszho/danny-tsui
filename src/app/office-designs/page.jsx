@@ -15,6 +15,7 @@ import ArtificialHanging from "@/public/images/artificial_hanging_plants.jpg";
 import WallGrid from "@/public/images/friade_wall_grid_panel.jpg";
 import Leoenir4Pack from "@/public/images/leoenir_4_pack_round.jpg";
 import QeeigFloatingShelves from "@/public/images/qeeig_floating_shelves.jpg";
+import Hoka from "@/public/images/hoka.jpg";
 
 const products = [
   {
@@ -69,6 +70,14 @@ const products = [
     price: 39.82,
     imageUrl: QeeigFloatingShelves,
     buyUrl: "https://amzn.to/4eczJs0",
+  },
+  {
+    id: 7,
+    name: `HOKA ONE ONE Womens Clifton 9 Textile Trainers`,
+    description: `Textile. Polyurethane.`,
+    price: 145.0,
+    imageUrl: Hoka,
+    buyUrl: "https://amzn.to/4cYg260",
   },
 ];
 
