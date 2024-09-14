@@ -16,6 +16,7 @@ import WallGrid from "@/public/images/friade_wall_grid_panel.jpg";
 import Leoenir4Pack from "@/public/images/leoenir_4_pack_round.jpg";
 import QeeigFloatingShelves from "@/public/images/qeeig_floating_shelves.jpg";
 import Hoka from "@/public/images/hoka.jpg";
+import Bohopack from "@/public/images/pack_boho.jpg";
 
 const products = [
   {
@@ -73,6 +74,14 @@ const products = [
   },
   {
     id: 7,
+    name: `7 Pack Boho Wall Basket Decor, Hanging Woven Wall Basket Decor`,
+    description: `7 pieces of woven basket wall decoration are mainly made of woven grass. They are not easy to deform or fade and are hand-woven. The surface pattern is smooth, orderly, safe and wear-resistant. 5 sizes: 1 piece about 4.33 inches /11 cm, 1 piece about 5.91 inches /15 cm, 2 pieces about 7.09 inches /18 cm, 1 piece about 9.84 inches /25 cm. And 2 pieces about 11.81 inches /30 cm. You can arrange them in different way.`,
+    price: 16.99,
+    imageUrl: Bohopack,
+    buyUrl: "https://amzn.to/3TufMoh",
+  },
+  {
+    id: 8,
     name: `HOKA ONE ONE Womens Clifton 9 Textile Trainers`,
     description: `Textile. Polyurethane.`,
     price: 145.0,
