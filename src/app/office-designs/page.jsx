@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "@/components/header";
+import Footer from "@/components/footer";
 import Image from "next/image";
 import {
   Card,
@@ -17,6 +18,7 @@ import Leoenir4Pack from "@/public/images/leoenir_4_pack_round.jpg";
 import QeeigFloatingShelves from "@/public/images/qeeig_floating_shelves.jpg";
 import Hoka from "@/public/images/hoka.jpg";
 import Bohopack from "@/public/images/pack_boho.jpg";
+import Mic from "@/public/images/mic.jpg";
 
 const products = [
   {
@@ -80,17 +82,9 @@ const products = [
     imageUrl: Bohopack,
     buyUrl: "https://amzn.to/3TufMoh",
   },
-  {
-    id: 8,
-    name: `HOKA ONE ONE Womens Clifton 9 Textile Trainers`,
-    description: `Textile. Polyurethane.`,
-    price: 145.0,
-    imageUrl: Hoka,
-    buyUrl: "https://amzn.to/4cYg260",
-  },
 ];
 
-export default function Home() {
+export default function OfficeDesignsPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Head>
@@ -143,11 +137,7 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="bg-secondary text-secondary-foreground mt-8">
-        <div className="container mx-auto py-4 text-center">
-          <p>&copy; 2024 Danny Tsui. Amazon affiliate links included.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

@@ -29,6 +29,14 @@ const Header = () => {
                 Office Designs
               </Link>
             </li>
+            <li>
+              <Link
+                href="/content-creation"
+                className="hover:underline text-white"
+              >
+                Content Creation
+              </Link>
+            </li>
           </ul>
         </nav>
         <div className="md:hidden">
@@ -70,6 +78,14 @@ const Header = () => {
                       className="text-white hover:text-primary hover:underline text-lg"
                     >
                       Office Designs
+                    </Link>
+                  </SheetClose>
+                  <SheetClose asChild>
+                    <Link
+                      href="/content-creation"
+                      className="text-white hover:text-primary hover:underline text-lg"
+                    >
+                      Content Creation
                     </Link>
                   </SheetClose>
                 </SheetHeader>
